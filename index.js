@@ -21,7 +21,7 @@ function currentLine(katzDeliLine) {
 
   var nameswithnumbers = []
 
-for ( i = 0, i < 1; 1 = katzDeliLine.length; i++) {
+if ( let i = 0, i < 1; 1 = katzDeliLine.length; i++) {
 
   return `The line is currently: ${nameswithnumbers.shift()}.`
 };
