@@ -19,13 +19,13 @@ function currentLine(katzDeliLine) {
     return "The line is currently empty."
   }
 
-  var numberwithnames = []
+  var nameswithnumbers = []
 
   for (let i = 0, l = katzDeliLine.length; i < l; i++) {
-    numbersAndNames.push(`${i + 1}. ${line[i]}`)
+    nameswithnumbers.push(`${i + 1}. ${line[i]}`)
   }
 
   /* Keep in mind, join() is a a shorthand for looping and building
    * into a String. */
-  return `The line is currently: ${numbersAndNames.join(', ')}`
+  return `The line is currently: ${numbersAndNames.join + ', '}`
 };
