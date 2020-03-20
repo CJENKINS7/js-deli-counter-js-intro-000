@@ -21,7 +21,7 @@ function currentLine(katzDeliLine) {
 
   var numberwithnames = []
 
-  for (let i = 0, l = line.length; i < l; i++) {
+  for (let i = 0, l = katzDeliLine.length; i < l; i++) {
     numbersAndNames.push(`${i + 1}. ${line[i]}`)
   }
 
