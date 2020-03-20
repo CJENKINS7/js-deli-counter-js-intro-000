@@ -22,7 +22,7 @@ function currentLine(katzDeliLine) {
   var nameswithnumbers = []
 
   for (let i = 0, l = katzDeliLine.length; i < l; i++) {
-    nameswithnumbers.push(`${i + 1}. ${line[i]}`)
+    nameswithnumbers.push(`${i + 1}. ${katzDeliLine[i]}`)
   }
 
   /* Keep in mind, join() is a a shorthand for looping and building
