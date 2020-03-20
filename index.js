@@ -18,6 +18,14 @@ function currentLine(katzDeliLine) {
   if (katzDeliLine.length) {
     return "The line is currently empty."
   }
-  if (katzDeliLine.length === 0) {
-  return `Currently serving ${katzDeliLine.shift()}.`
-}
+
+  const numbersAndNames = []
+
+  for (let i = 0, l = line.length; i < l; i++) {
+    numbersAndNames.push(`${i + 1}. ${line[i]}`)
+  }
+
+  /* Keep in mind, join() is a a shorthand for looping and building
+   * into a String. */
+  return `The line is currently: ${numbersAndNames.join(', ')}`
+};
