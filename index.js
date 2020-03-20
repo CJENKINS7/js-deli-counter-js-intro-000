@@ -21,10 +21,7 @@ function currentLine(katzDeliLine) {
 
   var nameswithnumbers = []
 
-  for (let i = 0, l = katzDeliLine.length; i < l; i++) {
-    nameswithnumbers.push(`${i + 1}. ${katzDeliLine[i]}`)
-  }
+  if (let i = 0; i < katzDeliLine.length; i++) {
 
-
-  return `The line is currently: ${nameswithnumbers.join(',')}`
+  return `The line is currently: ${nameswithnumbers.shift()}.`
 };
